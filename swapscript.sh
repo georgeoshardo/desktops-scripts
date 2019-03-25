@@ -7,3 +7,4 @@ sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 sudo swapon --show
+echo "Swap space of $swapamount added, this is removed on reboot."
