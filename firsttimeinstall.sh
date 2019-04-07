@@ -4,7 +4,10 @@
 echo "Install basic programs"
 sudo apt-get -y install rofi xbacklight lxappearance nm-tray network-manager-openvpn fish filezilla atom compton feh texlive-full flameshot htop i3 i3lock-fancy nm-applet qbittorrent ranger rhythmbox telegram texstudio vlc git
 sudo apt-get -y install network-manager-openvpn-gnome openvpn-systemd libappindicator1 python-pip ipykernel youtube-dl ruby-full build-essential zlib1g-dev
-sudo apt-get -y install exfat-utils exfat-fuse playerctl
+sudo apt-get -y install exfat-utils exfat-fuse playerctl lm-sensors
+
+
+
 #Building i3-gaps
 echo "Building i3-gaps from source"
 sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev \
@@ -29,4 +32,7 @@ sudo make install
 
 #Making fish the default shell
 chsh -s /usr/bin/fish
+
+#Making fish cool
+curl -L https://get.oh-my.fish | fish
 
