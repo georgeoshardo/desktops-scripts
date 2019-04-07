@@ -2,8 +2,8 @@
 
 #Installing my frequently used programs
 echo "Install basic programs"
-sudo apt-get -y install rofi xbacklight lxappearance nm-tray network-manager-openvpn fish filezilla atom compton feh texlive-full flameshot htop i3 i3lock-fancy nm-applet qbittorrent ranger rhythmbox telegram texstudio vlc git
-sudo apt-get -y install network-manager-openvpn-gnome openvpn-systemd libappindicator1 python-pip ipykernel youtube-dl ruby-full build-essential zlib1g-dev
+sudo apt-get -y install rofi xbacklight lxappearance network-manager-gnome network-manager-openvpn fish filezilla atom compton feh texlive-full flameshot htop i3 i3lock-fancy qbittorrent ranger rhythmbox telegram-desktop texstudio vlc git
+sudo apt-get -y install network-manager-openvpn-gnome libappindicator1 python-pip youtube-dl ruby-full build-essential zlib1g-dev
 sudo apt-get -y install exfat-utils exfat-fuse playerctl lm-sensors
 
 
